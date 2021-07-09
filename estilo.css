@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.conteudo{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    display:flex;
+    background-color: #E6B8B8;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#body {
+    background-image: url("IMG/FUNDO.svg");
+    background-repeat: no-repeat;
+  }
+header ul li{
+    list-style: none;
+    padding: 3rem;
+ 
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    background-color:#DAFAD3;
+    font-size: 1.5rem;
+    font-family: Old Standard TT;
+}
+
+/*pagina1*/
+.pagina1 {
+    background-image: url(./IMG/FUNDO.svg);
+    width: 100%;
+    height: 50rem;
+
+}
+.pagina1 nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pagina1 nav section p{
+    margin: 2rem;
+    background-color: #DAFAD3;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Old Standard TT';
+}
+.pagina1 nav div{
+    margin-top: 7rem;
+
+    /*pagina2e3*/
+}
+.livros img{
+    padding: 0 6rem;
+}
+.livros2{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.pagina2e3 {
+    background-image: url(./IMG/FUNDO.svg);
+    width: 100%;
+    height: 62rem;
+
+}
+.pagina2e3 nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pagina2e3 nav section p{
+    margin: 2rem;
+    background-color: #DAFAD3;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Old Standard TT';
+}
+.pagina2e3 nav div{
+    margin-top: 4rem;
+}
+/*pagina4*/
+.pagina4 {
+    background-image: url(./IMG/FUNDO.svg);
+    width: 100%;
+    height: 50rem;
+
+}
+.pagina4 nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pagina4 nav h1{
+    margin: 2rem;
+    background-color: #DAFAD3;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Old Standard TT';
+}
+.pagina4 nav p{
+    text-align: justify;
+    margin: 2rem;
+    background-color: #DAFAD3;
+    font-size: 1rem;
+}
+.pagina4 nav img{
+    width: 25%;
+}
